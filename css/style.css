@@ -1,0 +1,211 @@
+/* Common */
+body,
+html {
+padding: 0;
+margin: 0;
+}
+*{
+box-sizing: border-box;
+}
+a {
+text-decoration: none;
+}
+ul,ol {
+list-style-type: none;
+}
+.d-inline-block{
+display:inline-block;
+}
+.section-gap{
+padding:5rem 0;
+}
+/* ======================Landing=== */
+.header{
+    background-image: url(../image/events-heavenly-header.jpg);
+    background-position: center , center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.header .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: hsla(358, 67%, 51%, 0.349);
+}
+.main-header{
+    margin-right: 80px;
+}
+.main-header h1 , p {
+    color: #fff ;
+    position: relative;
+}
+.main-header .head-paragraph {
+    color: #fff ;
+    position: relative;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.main-header .head-header{
+    font-size: 5rem;
+    font-weight: 400;
+}
+/* ======================NAVBAR=== */
+.header .nav-bar{
+    width: 0;
+    height:100vh;
+    background-color:#503f3f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .nav-bar .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .625rem .625rem;
+    font-size: 1.5625rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+.header .nav-bar #links li{
+    padding: 20px 80px 20px 0;
+}
+.header .nav-bar #links li a{
+    color: aliceblue;
+    font-size: 1.5625rem;
+    font-weight: 100;
+    transition: color .5s ease-in-out;
+    padding-right: 35px;
+    
+}
+.header .nav-bar #links li a:hover{
+    color: #D62E33;
+}
+.open span{
+    position: relative;
+    width: 3.125rem;
+    height: .0625rem;
+    background-color: #fff;
+    display: block;
+    margin: .625rem;
+    color: #fff;
+    cursor: pointer;
+}
+.header .click h4{
+    color: aliceblue;
+    position: relative;
+    font-size: 1.875rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+/* ============/*section Two=============*/
+.sec-two .card-head h3{
+    color: #fff;
+    background-color: hwb(358 18% 16% / 0.508);
+    font-size: 1.5625rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+/* .sec-two .card-head h3::before{
+    content: '+';
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    font-size: 30px;
+} */
+.sec-two .card-body{
+    position: relative;
+    display: none;
+}
+.sec-two .contentbox.active {
+    height: 100%;
+}
+/*====================section Three=========*/ 
+.sec-three{
+    background-image: url(../image/invitation-2508607__340.jpg);
+    background-position: center , center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    position: relative;
+}
+.sec-three .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color:  hsla(358, 67%, 51%, 0.541);
+}
+.sec-three .count h3{
+    border: .0625rem solid white;
+    padding: 3.125rem 3.125rem;
+    color: #fff;
+    font-size: 3.125rem;
+}
+.sec-three .count #countName{
+    font-size:  1.875rem;
+    font-weight: 100;
+    margin: 1.25rem;
+    color: #ffffff;
+}
+/* =======================Section 4==== */
+.sec-four .caption  , h3 ,p{
+    color: rgba(0, 0, 0, 0.74);
+}
+.sec-four .caption h2 {
+    font-size: 2.5rem;
+    margin: .9375rem 0;  
+    font-weight: 700;
+    color: #D62E33;
+}
+.sec-four .caption h3 {
+    font-size: 2.5rem;
+    margin: .9375rem 0;  
+    font-weight: 500;
+    color: #D62E33;
+}
+.sec-four .caption p {
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+.menu{
+    margin: 3.125rem 0;
+}
+.menu ul li {
+    margin: .625rem 0;
+}
+.menu ul li i{
+    margin: .3125rem .625rem;
+    font-size: 1.25rem;
+    color: #D62E33;
+}
+.menu ul li p{
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.74);
+}
+.socail .icon{
+    border: .0625rem solid black;
+    color: rgba(0, 0, 0, 0.74);
+
+}
+.socail .icon i{
+font-size:1.25rem;
+padding: 1.25rem;
+color: rgba(0, 0, 0, 0.74);
+transition: all .5s ease-in-out;
+}
+.socail .icon i:hover{
+    background-color:#D62E33 ;
+    color: aliceblue;
+}
